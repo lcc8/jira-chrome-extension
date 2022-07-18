@@ -1,0 +1,16 @@
+{
+  "name": "jira story points calculator",
+  "description": "calculate total story points from story",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": ["https://jira.gamesys.co.uk/*"],
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "action": {
+    "default_title": "Run Jira Story Points Collector",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png"
+  }
+}
